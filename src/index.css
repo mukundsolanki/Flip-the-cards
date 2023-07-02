@@ -55,6 +55,11 @@ button {
   margin: auto;
 }
 
+.header img{
+  height: 2rem;
+  margin-right: 1.9rem;
+}
+
 .grid {
   gap: 1.25rem;
   display: grid;
