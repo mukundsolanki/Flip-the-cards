@@ -3,6 +3,7 @@ import './App.css';
 import random from './components/randomCards.js';
 import Card from './components/Card.jsx';
 import { useState, useEffect } from 'react';
+import Header from './components/Header';
 
 function App() {
 
@@ -31,6 +32,12 @@ function App() {
     setselectFirst(null);
     setselectSecond(null);
     setDisabled(false);
+  };
+
+  const resetGame = () => {
+    setWins(0);
+    handleTurn();
+    setCards(random);
   };
 
   useEffect(() => {
@@ -80,6 +87,7 @@ function App() {
 
   return (
     <>
+    <Header wins={wins} resetGame={resetGame}/>
       <div className='grid'>
         {cards.map((card) => {
           const { image, id, matched } = card;

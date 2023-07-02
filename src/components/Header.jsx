@@ -5,7 +5,7 @@ export default function Header(props) {
     <header className="header">
       <h4>{props.wins} wins</h4>
       <h3>Memory Game</h3>
-      <button>New Game</button>
+      <button onClick={props.resetGame}>New Game</button>
     </header>
   )
 }
