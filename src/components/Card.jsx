@@ -12,7 +12,7 @@ const Card = (props) => {
                 <img
                     alt=""
                     className="card-back"
-                    src={'/assets/fireship.png'}
+                    src={'/assets/hint.jpg'}
                     onClick={props.onClick}
                 />
             </div>
