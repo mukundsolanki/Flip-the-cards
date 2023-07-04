@@ -10,7 +10,11 @@ Flip the Cards is a Progressive Web App (PWA) built using React. It's a memory m
 
 ## Demo 🔥
 
-You can play the game online by visiting the following URL: [VERCEL](https://flip-the-cards-deployment.vercel.app/)
+You can play the game online by visiting the following URL: [LiVE](https://flip-the-cards-deployment.vercel.app/)
+
+Play offline by installing the native PWA:
+
+![image](https://github.com/mukundsolanki/Flip-the-cards/assets/114515612/39001763-ec07-4039-bfee-86ab14eccb33)
 
 ## Installation
 
@@ -19,7 +23,7 @@ To run the game locally, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/Flip-the-cards.git
+git clone https://github.com/mukundsolanki/Flip-the-cards.git
 ```
 
 2. Install the dependencies:
